@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 function Nav() {
-    return (
-        <nav>
-            <Link to='/'> All Groups</Link>
-        </nav>
-    )
+  return (
+    <nav key={'nav'}>
+      <Link to="/groups"> To Groups</Link>
+    </nav>
+  );
 }
 
-export {Nav}
+export { Nav };
